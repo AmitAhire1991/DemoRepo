@@ -26,6 +26,7 @@ public class ParentChildDemo {
 		driver.switchTo().window(parentwindow);
 		System.out.println(driver.findElement(By.cssSelector("div[class='example'] h3")).getText());
 
+		
 	}
 
 }
